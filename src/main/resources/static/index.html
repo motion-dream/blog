@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>易风博客</title>
+    <link rel="shortcut icon" href="./image/title.png">
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+<body>
+<div class="index-wrapper">
+    <!--侧边菜单-->
+    <div id="id-sideMenu" class="index-side-menu">
+        <div class="side-menu-top">
+            <div class="header"></div>
+            <h2 class="name">JiaMingMing</h2>
+            <p class="desc">仰望星空,也知晓过去</p>
+        </div>
+        <ul class="menu-list">
+            <li class="item">
+                <a href="/"><i class="icon icon-book"></i><span class="txt">博客</span></a>
+            </li>
+            <li class="item">
+                <a href="/"><i class="icon icon-price-tag"></i><span class="txt">标签</span></a>
+            </li>
+            <li class="item">
+                <a href="/"><i class="icon icon-images"></i><span class="txt">相册</span></a>
+            </li>
+            <li class="item">
+                <a href="/"><i class="icon icon-pushpin"></i><span class="txt">关于我</span></a>
+            </li>
+        </ul>
+        <div class="about-me">
+            <a href="https://github.com/motion-dream" class="sf" target="_blank">
+                <img src="./image/github.jpg" alt="">
+            </a>
+            <a href="https://space.bilibili.com/480294090" class="bilibili" target="_blank">
+                <img src="./image/bilibili.jpg" alt="">
+            </a>
+            <a href="mailto:2867405686@qq.com" class="email" target="_blank">
+                <img src="./image/qq.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <!--右侧内容-->
+    <div id="id-content" class="index-content-wrapper">
+        <!--内容header-->
+        <div id="id-topBar" class="index-header">
+            <div id="id-menuIcon" class="menu-icon">
+                <i class="icon-pushpin"></i>
+            </div>
+            <div id="id-topTxt" class="header-txt">我的博客</div>
+        </div>
+        <!--内容content-->
+        <div class="index-content">
+            <div class="content-top">
+                <canvas id="universe"></canvas>
+            </div>
+            <div id="id-article" class="article-wrapper">
+                <div class="article">
+                    <div class="article-header">
+                        <h1 class="title">越努力越幸运</h1>
+                        <div class="time">
+                            <i class="icon-calendar"></i>
+                            <span class="txt">2021-3-30</span>
+                        </div>
+                    </div>
+                    <div class="article-content">
+                        <p class="img">
+                            <img src="image/yourname.jpg">
+                        </p>
+                        <div class="desc">
+                            喜欢小雨
+                        </div>
+                    </div>
+                    <div class="article-info">
+                        <div class="icon">
+                            <i class="icon-price-tag"></i>
+                        </div>
+                        <ul class="tags clearfix">
+                            <li class="tag">
+                                <a href="/">随笔</a>
+                            </li>
+                            <li class="tag">
+                                <a href="/">心情日志</a>
+                            </li>
+                        </ul>
+                        <div class="more" >展开全文&gt;&gt;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--内容footer-->
+        <div class="index-footer">
+            <div class="pagination clearfix">
+                <div class="prev">上一页</div>
+                <ul class="num">
+                    <li class="active item">1</li>
+                    <li class="item">2</li>
+                    <li class="item">3</li>
+                </ul>
+                <div class="next">下一页</div>
+            </div>
+            <div class="bottom-bar">
+                <span class="copy">JiaMingMing&nbsp;&copy;&nbsp;2021</span>
+                <span class="record"><a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">蜀ICP备2021019198号</a></span>
+            </div>
+        </div>
+        <!--返回顶部-->
+        <div id="id-backTop" class="back-top">
+            <i class="icon-book"></i>
+        </div>
+    </div>
+    <!--移动端全屏遮罩层-->
+    <div id="id-mask" class="mask"></div>
+</div>
+<script src="./js/main.js" type="text/javascript"></script>
+<script src="./js/star.js" type="text/javascript"></script>
+</body>
+</html>
